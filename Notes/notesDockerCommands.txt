@@ -1,0 +1,20 @@
+$ docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+
+#Remove all stopped containers:
+$ docker rm $(docker ps -a -q)
+
+# Remove all images:
+$ docker image prune --all
+
+
+# Pull MongoDB from DockerHub:
+$ docker pull mongo
+
+# Create Docker container from MongoDB image:
+$ docker run -d -p 27017:27017 --name aspnetrun-mongo mongo
+
+# Execute commands inside of MongoDB container:
+$ docker exect -it aspnetrun-mongo /bin/bash
+
+
+

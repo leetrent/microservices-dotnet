@@ -1,0 +1,18 @@
+RabbitMQ:
+http://localhost:15672
+(login with guest/guest)
+
+Catalog API:
+http://localhost:8000/swagger
+
+Basket API:
+http://localhost:8001/swagger
+
+Order API:
+http://localhost:8002/swagger
+
+API Gateway:
+http://localhost:7000/Order?username=swn
+
+Shopping WEB UI:
+http://localhost:8003

@@ -1,0 +1,9 @@
+# Start MongoDB CLI:
+$ mongo
+
+# List current Mongo databases:
+$ show dbs
+$ show databases
+
+# List MongoDB collections:
+$ show collections
