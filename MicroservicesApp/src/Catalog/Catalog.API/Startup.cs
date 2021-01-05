@@ -13,6 +13,8 @@ using Catalog.API.Settings;
 using Microsoft.Extensions.Options;
 using Catalog.API.Data.Interfaces;
 using Catalog.API.Data;
+using Catalog.API.Repositories.Interfaces;
+using Catalog.API.Repositories;
 
 namespace Catalog.API
 {
@@ -33,6 +35,7 @@ namespace Catalog.API
             services.AddSingleton<ICatalogDatabaseSettings>(sp => 
                 sp.GetRequiredService<IOptions<CatalogDatabaseSettings>>().Value);
             services.AddTransient<ICatalogContext, CatalogContext>();
+            services.AddTransient<IProductRepository, ProductRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
