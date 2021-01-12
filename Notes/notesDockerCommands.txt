@@ -16,5 +16,8 @@ $ docker run -d -p 27017:27017 --name aspnetrun-mongo mongo
 # Execute commands inside of MongoDB container:
 $ docker exec -it aspnetrun-mongo /bin/bash
 
+# Docker Compose
+$ docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+
 
 
