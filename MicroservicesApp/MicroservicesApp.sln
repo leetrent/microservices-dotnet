@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "src\Catalog\
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D707BB38-5A87-4569-B7D6-21987959B45E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{F31A341D-0327-4D8D-8E3E-0BFC5B223A50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "src\Basket\Basket.API\Basket.API.csproj", "{9FC22404-6304-4D85-9DF9-527E5DFD3FD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{D707BB38-5A87-4569-B7D6-21987959B45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D707BB38-5A87-4569-B7D6-21987959B45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D707BB38-5A87-4569-B7D6-21987959B45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC22404-6304-4D85-9DF9-527E5DFD3FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC22404-6304-4D85-9DF9-527E5DFD3FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC22404-6304-4D85-9DF9-527E5DFD3FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC22404-6304-4D85-9DF9-527E5DFD3FD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8FFB791C-FA6B-4554-8DAF-39EB576B562A} = {91273BBF-A222-4E7E-A48F-B319ECCE79C2}
 		{F88756B4-5E2C-4FD9-8E16-04DF6EEDFE51} = {8FFB791C-FA6B-4554-8DAF-39EB576B562A}
+		{F31A341D-0327-4D8D-8E3E-0BFC5B223A50} = {91273BBF-A222-4E7E-A48F-B319ECCE79C2}
+		{9FC22404-6304-4D85-9DF9-527E5DFD3FD4} = {F31A341D-0327-4D8D-8E3E-0BFC5B223A50}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F9E36BB2-0333-4555-84C5-B9FC88913F91}
