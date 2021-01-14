@@ -15,3 +15,9 @@ $ redis-cli
 
 # Insure that Redis is working:
 $ ping (should receive a response of 'PONG')
+
+$ set key value
+$ get key
+
+$ set name Lee
+$ get name
