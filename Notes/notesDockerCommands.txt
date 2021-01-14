@@ -1,6 +1,6 @@
 $ docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 
-#Remove all stopped containers:
+# Remove all stopped containers:
 $ docker rm $(docker ps -a -q)
 
 # Remove all images:
@@ -18,6 +18,9 @@ $ docker exec -it aspnetrun-mongo /bin/bash
 
 # Docker Compose
 $ docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+
+# Retrieve logs for a specific container:
+$ docker logs -f aspnetrun-redis
 
 
 

@@ -1,0 +1,17 @@
+# Pull Redis image from Docker Hub:
+$ docker pull redis
+
+# Run Redis container
+$ docker run -d -p 6379:6379 --name aspnetrun-redis redis
+
+$ # Retrieve logs for Redis container:
+$ docker logs -f aspnetrun-redis
+
+# Execute commands inside of the Redis container:
+$ docker exec -it aspnetrun-redis /bin/bash
+
+# Once inside Redis container, invoke redis-cli
+$ redis-cli
+
+# Insure that Redis is working:
+$ ping (should receive a response of 'PONG')
