@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Basket.API.Data.Interfaces
 {
-    interface IBasketContext
+    public interface IBasketContext
     {
         IDatabase Redis { get; }
     }
