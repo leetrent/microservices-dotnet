@@ -18,6 +18,7 @@ $ docker exec -it aspnetrun-mongo /bin/bash
 
 # Docker Compose
 $ docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+https://stackoverflow.com/questions/35289802/docker-pull-error-x509-certificate-has-expired-or-is-not-yet-valid
 
 # Retrieve logs for a specific container:
 $ docker logs -f aspnetrun-redis
