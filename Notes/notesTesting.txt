@@ -1,0 +1,47 @@
+============================================================
+/api/v1/Basket (POST)
+============================================================
+{
+  "userName": "swn",
+  "items": [
+    {
+      "quantity": 2,
+      "color": "Red",
+      "price": 33,
+      "productId": "5",
+      "productName": "Product 5"
+    },
+    {
+      "quantity": 1,
+      "color": "Blue",
+      "price": 55,
+      "productId": "3",
+      "productName": "Product 3"
+    }
+  ]
+}
+
+============================================================
+/api/v1/Basket (GET)
+============================================================
+userName: swn
+
+============================================================
+/api/v1/Basket/Checkout (POST)
+============================================================
+{
+  "userName": "swn",
+  "totalPrice": 10,
+  "firstName": "swn",
+  "lastName": "swn",
+  "emailAddress": "string",
+  "addressLine": "string",
+  "country": "string",
+  "state": "string",
+  "zipCode": "string",
+  "cardName": "string",
+  "cardNumber": "string",
+  "expiration": "string",
+  "cvv": "string",
+  "paymentMethod": 1
+}
