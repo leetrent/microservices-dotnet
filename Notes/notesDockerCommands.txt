@@ -23,5 +23,8 @@ https://stackoverflow.com/questions/35289802/docker-pull-error-x509-certificate-
 # Retrieve logs for a specific container:
 $ docker logs -f aspnetrun-redis
 
+# Remove a specific image:
+# docker rmi <image id>
+
 
 

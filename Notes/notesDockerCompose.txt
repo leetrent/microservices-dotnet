@@ -1,0 +1,29 @@
+#############################
+# Stop all running containers
+#############################
+$ docker stop <container id>
+
+###########################################################################
+# Execute docker compose file
+###########################################################################
+$ docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+
+########################################
+# Test Catolog.API
+########################################
+http://localhost:8000/swagger/index.html
+
+########################################
+# Test Basket.API
+########################################
+http://localhost:8001/swagger/index.html
+
+####################################
+# Test RabbitMQ Management Dashboard
+####################################
+http://localhost:15672/
+guest / guest
+
+
+
+
